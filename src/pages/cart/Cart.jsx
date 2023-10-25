@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import Layout from '../../components/layout/Layout';
+import { deleteFromCart } from '../../redux/features/cartSlice/CartSlice';
 
 
 
