@@ -45,7 +45,7 @@ function Cart() {
             {cartItems.map((item, index) => {
               const { title, price, desc, imageUrl } = item;
               return (
-                <div className="justify-between mb-6 rounded-lg border  drop-shadow-xl bg-white p-6  sm:flex  sm:justify-start" >
+                <div key={index} className="justify-between mb-6 rounded-lg border  drop-shadow-xl bg-white p-6  sm:flex  sm:justify-start" >
                   <img src={imageUrl} alt="product-image" className="w-full rounded-lg sm:w-40" />
                   <div className="sm:ml-4 sm:flex sm:w-full sm:justify-between">
                     <div className="mt-5 sm:mt-0">
